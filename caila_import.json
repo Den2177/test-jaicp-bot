@@ -1,0 +1,249 @@
+{
+  "project" : {
+    "id" : "beremennost_pozdnij_-1000014161-CCT",
+    "name" : "beremennost_pozdnij_-1000014161-CCT",
+    "folder" : "/jaicp"
+  },
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "UTC",
+    "extendedSettings" : {
+      "tokenizerEngine" : "mystem",
+      "useShared" : false
+    },
+    "shared" : false
+  },
+  "intents" : [ {
+    "path" : "/Согласие",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Да"
+    }, {
+      "text" : "Да да"
+    }, {
+      "text" : "Конечно"
+    }, {
+      "text" : "Да конечно"
+    }, {
+      "text" : "Согласен"
+    }, {
+      "text" : "Да согласен"
+    }, {
+      "text" : "Есть"
+    }, {
+      "text" : "Да есть"
+    }, {
+      "text" : "*Да*"
+    }, {
+      "text" : "Присутствует"
+    }, {
+      "text" : "Да немного "
+    }, {
+      "text" : "Да сильно"
+    }, {
+      "text" : "да"
+    }, {
+      "text" : "конечно"
+    }, {
+      "text" : "Все верно"
+    }, {
+      "text" : "да есть"
+    }, {
+      "text" : "ага"
+    }, {
+      "text" : "угу "
+    }, {
+      "text" : "согласен"
+    }, {
+      "text" : "согласие"
+    }, {
+      "text" : "есть"
+    }, {
+      "text" : "было"
+    }, {
+      "text" : "было такое"
+    }, {
+      "text" : "подтверждаю"
+    }, {
+      "text" : "да да"
+    }, {
+      "text" : "*Да"
+    }, {
+      "text" : "Да*"
+    }, {
+      "text" : "Шевелится"
+    }, {
+      "text" : "есть есть"
+    }, {
+      "text" : "конечно конечно"
+    }, {
+      "text" : "было вроде"
+    }, {
+      "text" : "вроде как есть"
+    }, {
+      "text" : "*Есть*"
+    }, {
+      "text" : "$yes"
+    }, {
+      "text" : "$agree"
+    }, {
+      "text" : "$agreeWeak"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Отрицание",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Нет"
+    }, {
+      "text" : "отрицаю"
+    }, {
+      "text" : "не было"
+    }, {
+      "text" : "неа"
+    }, {
+      "text" : "отрицательно"
+    }, {
+      "text" : "нет "
+    }, {
+      "text" : "не замечала"
+    }, {
+      "text" : "не видела"
+    }, {
+      "text" : "вроде нет"
+    }, {
+      "text" : "нет вроде"
+    }, {
+      "text" : "не согласна"
+    }, {
+      "text" : "Нет нет"
+    }, {
+      "text" : "*Нет*"
+    }, {
+      "text" : "$no"
+    }, {
+      "text" : "$disagree"
+    }, {
+      "text" : "$disagreeWeak"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
+  "spellerDictionary" : [ ],
+  "systemEntities" : [ {
+    "name" : "mystem.geo",
+    "enabled" : false
+  }, {
+    "name" : "mystem.persn",
+    "enabled" : false
+  }, {
+    "name" : "mystem.obsc",
+    "enabled" : false
+  }, {
+    "name" : "mystem.patrn",
+    "enabled" : false
+  }, {
+    "name" : "mystem.famn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.romn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.latn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.numb",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.intg",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.abbr",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.name",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.surn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.patr",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.geox",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.orgn",
+    "enabled" : false
+  }, {
+    "name" : "duckling.number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.ordinal",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.amount-of-money",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.distance",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.date",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time-of-day",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.duration",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.phone-number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.email",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.url",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.interval",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "mlps-obscene.obscene",
+    "enabled" : false
+  }, {
+    "name" : "zb.datetime",
+    "enabled" : false
+  }, {
+    "name" : "zb.number",
+    "enabled" : false
+  } ]
+}
